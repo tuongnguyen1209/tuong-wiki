@@ -1,0 +1,225 @@
+{
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#1c1f31", // 1e2133 thanh thứ 2 bên phải
+    "editor.background": "#191c2c",
+    "terminal.background": "#20212c",
+    "panel.background": "#282a37",
+    "activityBar.background": "#191c2c", // thanh đầu tiên bên phải
+    "tab.activeBackground": "#141c2f",
+    "tab.activeBorderTop": "#20ffe6",
+    "panelTitle.activeBorder": "#20ffe6",
+    "tab.inactiveBackground": "#252b38",
+    "tab.inactiveForeground": "#ded7d7",
+    "panelTitle.inactiveForeground": "#cac7c7",
+    "breadcrumb.foreground": "#afabab"
+  },
+  "editor.tokenColorCustomizations": {
+    "[Dracula]": {
+      "textMateRules": [
+        {
+          // Màu comment
+          "scope": "comment",
+          "settings": {
+            "foreground": "#7b899c",
+            "fontStyle": ""
+          }
+        },
+        // ================================== HTML ==========================================
+        {
+          // Màu của tên thuộc tính - class
+          "scope": "entity.other.attribute-name",
+          "settings": {
+            "foreground": "#20e3b2", //20e3b2 22ebb8
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của chuỗi trong html
+          "scope": "string.quoted.double.html",
+          "settings": {
+            "foreground": "#e0eba4", //eac394
+            "fontStyle": ""
+          }
+        },
+        {
+          // Chữ trong html
+          "scope": "text.html.derivative",
+          "settings": {
+            "foreground": "#fff",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của thẻ tag trong html
+          "scope": "entity.name.tag.html",
+          "settings": {
+            "foreground": "#ff79c6",
+            "fontStyle": ""
+          }
+        },
+        // ================================== CSS ==========================================
+        {
+          // Tên class trong css
+          "scope": "entity.other.attribute-name.class.css",
+          "settings": {
+            // "foreground": "#fd4bfd",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của before/after trong css
+          "scope": "entity.other.attribute-name.pseudo-class.css",
+          "settings": {
+            "foreground": "#ffa1b9",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của tên biến trong scss
+          "scope": "variable.scss",
+          "settings": {
+            "foreground": "#8be9fd",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của after/before trong css
+          "scope": "entity.other.attribute-name.pseudo-element.css",
+          "settings": {
+            "foreground": "#2be296",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của string css | VD: san-serif
+          "scope": "support.constant.font-name.css",
+          "settings": {
+            "foreground": "#d8e881",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của string css | VD: san-serif
+          "scope": "variable.other.readwrite.alias.js",
+          "settings": {
+            "foreground": "#80d6e8",
+            "fontStyle": ""
+          }
+        },
+        // ================================== JS ==========================================
+        {
+          // Màu của string trong js
+          "scope": "string.quoted.single.js",
+          "settings": {
+            "foreground": "#fcab7d",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu number trong js
+          "scope": "constant.numeric.decimal.js",
+          "settings": {
+            "foreground": "#e6e6e6",
+            "fontStyle": ""
+          }
+        },
+        {
+          // .Phương thức
+          "scope": "entity.name.function.member",
+          "settings": {
+            "foreground": "#8be9fd",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Tên biến trong js
+          "scope": "variable.other.constant.object.js",
+          "settings": {
+            "foreground": "#c4eff8",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của hàm khai báo biến - cost, var, let
+          "scope": "storage.type.js",
+          "settings": {
+            "foreground": "#9acfe4",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của document, window
+          "scope": "support.variable.js",
+          "settings": {
+            "foreground": "#ec9cdf",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của phương thức
+          "scope": "entity.name.function",
+          "settings": {
+            "foreground": "#8bbaf8",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu function
+          "scope": "storage.type.function.js",
+          "settings": {
+            "foreground": "#c792ea",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của return
+          "scope": "keyword",
+          "settings": {
+            "foreground": "#c792ea",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của tên biến trong array, object
+          "scope": "variable.other.property.js",
+          "settings": {
+            "foreground": "#a4e9fc",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu khi return trong hàm map()
+          "scope": "string.template.js",
+          "settings": {
+            "foreground": "#6cc9f5",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của tên biến khi được gọi
+          "scope": "punctuation.definition.template-expression.begin.js",
+          "settings": {
+            "foreground": "#c4eff8",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu của phương thức trong import | VD: { useEffect, useState }
+          "scope": "support.type.property-name.css",
+          "settings": {
+            "foreground": "#83d3e4",
+            "fontStyle": ""
+          }
+        },
+        {
+          // Màu js | VD: target
+          "scope": "variable.other.object.property.js",
+          "settings": {
+            "foreground": "#36a1b7",
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  }
+}
